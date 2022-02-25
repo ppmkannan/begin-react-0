@@ -1,0 +1,18 @@
+.card {
+	width: 300px;
+	display: flex;
+	background-color: #edf2f4;
+	border-radius: 5px;
+	transform: translateZ(0);
+	transition: transform 0.25s ease;
+	margin-bottom: 20px;
+}
+
+h6 {
+	width: 100%;
+	margin: 10px;
+}
+
+.card:hover {
+	transform: scale(1.05);
+}
